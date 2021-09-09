@@ -4,7 +4,7 @@
   "description": "Simple test server to receive webhooks updates from Facebook",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -20,12 +20,10 @@
   "bugs": {
     "url": "https://github.com/mduppes/webhooks_test/issues"
   },
-  "scripts": {
-    "start": "node index.js"
-  },
   "homepage": "https://github.com/mduppes/webhooks_test#readme",
   "dependencies": {
     "body-parser": "^1.15.2",
+    "dotenv": "^10.0.0",
     "express": "^4.14.0",
     "express-x-hub": "^1.0.4",
     "request": "^2.74.0"
