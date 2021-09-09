@@ -4,9 +4,9 @@ Simple test server to receive and show webhooks received from Facebook.
 ## Getting Started
 
 1. run `yarn install`
-2. run `cp .evn.example .env`, and then change `.env` settings
+2. run `cp .env.example .env`, and then change `.env` settings
 3. run `yarn run start` to start server
-4. visit `localhost:{PORT}`
+4. visit `localhost:3000` or `localhost:{YOUR_PORT}`
 4. (optional) use ngrok or other tunnel service to expose localhost to worldwide
 
 
